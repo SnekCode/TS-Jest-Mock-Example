@@ -2,7 +2,7 @@ import {greet} from './greet'
 
 describe('first', () => { 
 
-    it('mocks the file', ()=>{
+    it('does not mock the file', ()=>{
         expect(greet("John")).toEqual("Hello, John")
     })
  })
